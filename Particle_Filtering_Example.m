@@ -1,5 +1,8 @@
+% Reference- Bilibili ID 287989852
+% Nonlinear dynamics example
 % x(i) = sin(x(i-1)) + 5*x(i-1)/(x(i-1)^2+1) + Q
 % y(i) = x(i)^2 + R
+
 % generate 100 samples
 t = 0.01:0.01:1;
 x = zeros(1,100);
